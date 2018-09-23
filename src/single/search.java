@@ -8,10 +8,12 @@ import java.util.Stack;
 import Jama.Matrix;
 
 
+
 public class search {
 	public int numOfqueryKeyword;
 	public String path="D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\minTest";
 	public int numXing=2;
+	
 	public String model="and";
 	public double accracy=0.1;//精度控制
     public List<double[][]> dotProductValue=new ArrayList<double[][]>();
@@ -98,6 +100,7 @@ public class search {
 	{
 		Matrix resultMatrix=i1.times(q1).plus(i2.times(q2));
 		double[][] result=resultMatrix.getArray();
+
 //         System.out.println("点积结果：");
 //         for(int i=0;i<result.length;i++)
 //         {
@@ -155,15 +158,15 @@ public class search {
 	          p_index1.val=new Matrix(p_index1.val).plus(new Matrix(p_index2.val)).getArray();
 	          
 //	         System.out.println(p_index1.val[0][0]);//单关键字的文件与单关键字查询
-	          System.out.println("点积矩阵：");
-	          for(int i=0;i< p_index1.val.length;i++)
-	          {
-	        	  for(int j=0;j<p_index1.val[0].length;j++)
-	        	  {
-	        		  System.out.print(p_index1.val[i][j]+" ");
-	        	  }
-	        	  System.out.println();
-	          }
+//	          System.out.println("点积矩阵：");
+//	          for(int i=0;i< p_index1.val.length;i++)
+//	          {
+//	        	  for(int j=0;j<p_index1.val[0].length;j++)
+//	        	  {
+//	        		  System.out.print(p_index1.val[i][j]+" ");
+//	        	  }
+//	        	  System.out.println();
+//	          }
 
 	          if (p_index1.right != null) {
 	        	  p_index1 = p_index1.right;
@@ -248,7 +251,7 @@ public class search {
 	{
 		//0.1先设置密钥 因为indexText用到
 		genKey key=new genKey();
-		int m=26;//暂时固定
+		int m=31;//暂时固定
 		key.setM(m);
 		//1、读取所有的关键字
 				List<String> listD =new ArrayList<String>();
@@ -259,8 +262,8 @@ public class search {
 				indexText inTx=new indexText();
 //			    test.readFileName("F:/infocoms/3keyword");
 //			    test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\1keyword");
-//				test.readFileName("F:\\硕士\\G盘\\10000");
-				test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\minTest");
+				test.readFileName("F:\\硕士\\G盘\\30000");
+//				test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\minTest");
 				listD=test.getListDocument();
 				listK=test.getListKeyword();
 				//2、将关键字变成索引
@@ -285,6 +288,7 @@ public class search {
 //					}
 //					System.out.println();
 //				}
+				System.out.println("建文件索引结束！");
 				//建树
 				buildTree buildtree =new buildTree();
 				TreeNode demonTree1 =new TreeNode();
@@ -297,6 +301,7 @@ public class search {
 				TreeNode demonTree2=buildtree.buildTree(buildtree.copyIndex(index));//第二棵树
 //				System.out.println();
 //				demonTree2.inOrder_norecursive(demonTree2);
+				System.out.println("建树结束！");
 				
 				//加密文件索引
 				//产生密钥key
@@ -328,6 +333,8 @@ public class search {
 				index_Enc.encIndexRoot1=index_Enc.enc_Tree1(demonTree1,m,matrix1);
 				index_Enc.encIndexRoot2=index_Enc.enc_Tree2(demonTree2,m,matrix2);
 				
+				
+				System.out.println("加密结束！");
 				//遍历加密后的indexTree
 //				System.out.println("遍历算法encIndexRoot1：");
 //				demonTree1.inOrder(index_Enc.encIndexRoot1);
@@ -395,7 +402,7 @@ public class search {
                 double accracy=0.001;
                 System.out.println("--执行searchStandard（）----");
                  
-                
+       
                 ex.searchStandard(node1, model, accracy);
                 System.out.println("查询的关键字：");
                 for(int i=0;i<query.size();i++)

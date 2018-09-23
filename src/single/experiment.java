@@ -7,11 +7,14 @@ import java.util.Random;
 import java.util.Stack;
 
 import Jama.Matrix;
+import jdk.jfr.DataAmount;
+
 
 public class experiment {
 	public List<String> keyword =new ArrayList<String>();//存放关键字
 	public List<String> file =new ArrayList<String>();//存放关键字对应的文件
 	public List<String> fuzzyQuery =new ArrayList<String>();//存放模糊查询
+
 	public List<Integer> searchResult = new ArrayList<Integer>();
 	public double rightHasSearchTotle;
 	public List<String> getKeyword() {
@@ -32,12 +35,12 @@ public class experiment {
 	public void setFuzzyQuery(List<String> fuzzyQuery) {
 		this.fuzzyQuery = fuzzyQuery;
 	}
-	public List<Integer> getSearchResult() {
-		return searchResult;
-	}
-	public void setSearchResult(List<Integer> searchResult) {
-		this.searchResult = searchResult;
-	}
+//	public List<Integer> getSearchResult() {
+//		return searchResult;
+//	}
+//	public void setSearchResult(List<Integer> searchResult) {
+//		this.searchResult = searchResult;
+//	}
 	/*
 	 * 功能：随机选取一份文件的一个关键字，
 	 * 关键字存入keyword，
@@ -185,15 +188,15 @@ public class experiment {
 				 searchResult.add(p.file_id);
 			 }
 
-	         for(int i=0;i<p.val.length;i++)
-	         {
-	            for(int j=0;j<p.val[0].length;j++)
-	            {
-	    	        System.out.print(p.val[i][j]+" "); 
-	            }
-	            System.out.println();
-	         }
-	        System.out.println("-----节点分界线-----------");
+//	         for(int i=0;i<p.val.length;i++)
+//	         {
+//	            for(int j=0;j<p.val[0].length;j++)
+//	            {
+//	    	        System.out.print(p.val[i][j]+" "); 
+//	            }
+//	            System.out.println();
+//	         }
+//	        System.out.println("-----节点分界线-----------");
 	          if (p.right != null && searchStandard(p.right.val,model,accracy)==1) {
 	              p = p.right;
 	          }
