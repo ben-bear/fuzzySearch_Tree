@@ -174,6 +174,10 @@ public class buildTree {
 			BigDecimal m=new BigDecimal(String.valueOf(str2));
 			
 			//Çó½â:
+			if(n.compareTo(BigDecimal.ZERO)==0 || m.compareTo(BigDecimal.ZERO)==0)
+			{
+				return 0.0;
+			}
 			BigDecimal num1=n;
 			BigDecimal num2=m;
 			if (n.compareTo(m)==-1) 

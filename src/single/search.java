@@ -260,7 +260,7 @@ public class search {
 //			    test.readFileName("F:/infocoms/3keyword");
 //			    test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\1keyword");
 //				test.readFileName("F:\\硕士\\G盘\\10000");
-				test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\minTest");
+				test.readFileName("C:\\Users\\muyunhao\\Desktop\\10000");
 				listD=test.getListDocument();
 				listK=test.getListKeyword();
 				//2、将关键字变成索引
@@ -394,21 +394,30 @@ public class search {
                
                 double accracy=0.001;
                 System.out.println("--执行searchStandard（）----");
-                 
-                
-                ex.searchStandard(node1, model, accracy);
+
+                Long time = System.currentTimeMillis();
+//                ex.searchStandard(node1, model, accracy);
+                List<Integer> result = ex.searchStandardRecursively(node1, "and", accracy);
+                Long endTime = System.currentTimeMillis();
+                System.out.print((endTime - time) / 1f + "ms");
+
+                for (int tmp: result) {
+                    System.out.print(listK.get(tmp));
+                }
+
                 System.out.println("查询的关键字：");
                 for(int i=0;i<query.size();i++)
                 {
                 	System.out.print(query.get(i)+",");
                 }
                 System.out.println();
+
                 System.out.println("查询结果：");
                 List<List<String>> targetKList =new ArrayList<List<String>>();
-                for(int i=0;i<ex.searchResult.size();i++)
+                for(int i=0;i<result.size();i++)
                 {
-                	targetKList.add(listK.get(ex.searchResult.get(i)));
-                	System.out.println(listK.get(ex.searchResult.get(i)));
+                	targetKList.add(listK.get(result.get(i)));
+                	System.out.println(listK.get(result.get(i)));
                 }
                System.out.println("模式："+model+" 精确度和召回率：");
                

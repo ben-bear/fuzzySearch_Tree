@@ -5,10 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Stack;
+import java.util.concurrent.Callable;
 
 import Jama.Matrix;
 
-public class experiment {
+public class experiment implements Callable<List<Integer>> {
 	public List<String> keyword =new ArrayList<String>();//存放关键字
 	public List<String> file =new ArrayList<String>();//存放关键字对应的文件
 	public List<String> fuzzyQuery =new ArrayList<String>();//存放模糊查询
@@ -38,6 +39,19 @@ public class experiment {
 	public void setSearchResult(List<Integer> searchResult) {
 		this.searchResult = searchResult;
 	}
+
+	private TreeNode treeNode = null;
+	private String mode = null;
+	private double accracy = 0.0;
+
+	experiment() {}
+
+	experiment(TreeNode treeNode, String mode, double accracy) {
+		this.treeNode = treeNode;
+		this.mode = mode;
+		this.accracy = accracy;
+	}
+
 	/*
 	 * 功能：随机选取一份文件的一个关键字，
 	 * 关键字存入keyword，
@@ -49,7 +63,7 @@ public class experiment {
 	 * @param ListD
 	 * @param ListK
 	 * @param numOfqueryKeyword 一个查询有多条关键字
-	 * @param numKeywordOfFile  一份文件有多少条关键字
+//	 * @param numKeywordOfFile  一份文件有多少条关键字
 	 * @param numFuzzy 模糊的星数 *
 	 */
 	public void exper(List<String> ListD,List<List<String>> ListK,int numOfqueryKeyword,int numFuzzy,String model)
@@ -151,6 +165,20 @@ public class experiment {
 		}
 	    newStr=newStr+str.substring(numFuzzy, str.length());
 		return newStr;
+	}
+
+	public List<Integer> searchStandardRecursively(TreeNode node, String mode, double accracy) {
+		List<Integer> list = new ArrayList<>();
+		if (node == null || searchStandard(node.val, mode, accracy) != 1) {
+			return new ArrayList<>();
+		} else {
+			if (node.file_id != -1) {
+				list.add(node.file_id);
+			}
+			list.addAll(searchStandardRecursively(node.left, mode, accracy));
+			list.addAll(searchStandardRecursively(node.right, mode, accracy));
+		}
+		return list;
 	}
 
 	public void searchStandard(TreeNode node,String model,double accracy)
@@ -384,7 +412,12 @@ public class experiment {
 
 		System.out.println("召回率="+ rightHasSearchTotle/rightTotle);
 }
-	
+
+
+	private static int getAvaliableCpuNumber() {
+		return Runtime.getRuntime().availableProcessors();
+	}
+
 	public static void main(String[] args) throws IOException
 	{
 //		experiment ex = new experiment();
@@ -425,6 +458,10 @@ public class experiment {
 //			System.out.print(ex.getFuzzyQuery().get(i)+" ");
 //		}
 	}
-	
+
+	@Override
+	public List<Integer> call() throws Exception {
+		return searchStandardRecursively(treeNode, mode, accracy);
+	}
 }
 
