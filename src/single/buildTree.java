@@ -85,7 +85,7 @@ public class buildTree {
 				{
 					for(int j=0;j<node1[i].length;j++)
 					{
-						newNode[i][j]=new buildTree().gongBeiShu(node1[i][j],node2[i][j]);
+						newNode[i][j]=new buildTree().gongBeiShu(String.valueOf(node1[i][j]),String.valueOf(node2[i][j]));
 					}
 				}
 				return newNode;
@@ -97,7 +97,7 @@ public class buildTree {
 				{
 					for(int j=0;j<node2[i].length;j++)
 					{
-						newNode[i][j]=new buildTree().gongBeiShu(node1[i][j],node2[i][j]);
+						newNode[i][j]=new buildTree().gongBeiShu(String.valueOf(node1[i][j]), String.valueOf(node2[i][j]));
 					}
 				}
 				//¸´ÖÆ

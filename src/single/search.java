@@ -248,7 +248,7 @@ public class search {
 	{
 		//0.1先设置密钥 因为indexText用到
 		genKey key=new genKey();
-		int m=26;//暂时固定
+		int m=31;//暂时固定
 		key.setM(m);
 		//1、读取所有的关键字
 				List<String> listD =new ArrayList<String>();
@@ -260,7 +260,7 @@ public class search {
 //			    test.readFileName("F:/infocoms/3keyword");
 //			    test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\1keyword");
 //				test.readFileName("F:\\硕士\\G盘\\10000");
-				test.readFileName("C:\\Users\\muyunhao\\Desktop\\10000");
+				test.readFileName("C:\\Users\\muyunhao\\Desktop\\All_keyword");
 				listD=test.getListDocument();
 				listK=test.getListKeyword();
 				//2、将关键字变成索引
@@ -268,7 +268,7 @@ public class search {
 				double[] prime ={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97};
 				inTx.setRandLetter(randLetter);
 				inTx.setPrime(prime);
-				inTx.keywordMain(listK, 20);
+				inTx.keywordMain(listK, 10);
 				index=inTx.getKeywordVector();
 //				System.out.println("index.size()="+index.size());
 //				System.out.println("index向量：");
@@ -344,9 +344,12 @@ public class search {
 				queryText qt=new queryText();
 				//人为添加的测试情况
 		//		query.add("*ware");
+        query.add("*iscuss");
+        query.add("*ent");
+        query.add("*remier");
 				//自动产生测试样例的情况
-				ex.exper(listD,listK,2,1,model);
-				query=ex.fuzzyQuery;
+				//ex.exper(listD,listK,2,1,model);
+			//	query=ex.fuzzyQuery;
 				qt.setPrime(prime);
 				qt.setQuery(query);
 				qt.setRandLetter(randLetter);

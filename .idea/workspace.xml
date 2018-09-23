@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="084e5656-1719-4a5a-8148-e9b499431826" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/buildTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/experiment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/fileRead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/genKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/indexEnc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/indexText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/queryEnc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/queryText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/buildTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/experiment.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/fileRead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/genKey.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/indexEnc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/indexText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/queryEnc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/queryText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/search.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tool/bigDecimalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tool/gongBeiShu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tool/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/BuildTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/conTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/test.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/single/buildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/buildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/single/experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/experiment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/single/search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/search.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -71,8 +39,8 @@
       <file leaf-file-name="search.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/single/search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="424" column="51" lean-forward="true" selection-start-line="424" selection-start-column="51" selection-end-line="424" selection-end-column="51" />
+            <state relative-caret-position="3">
+              <caret line="352" column="35" lean-forward="true" selection-start-line="352" selection-start-column="35" selection-end-line="352" selection-end-column="35" />
               <folding>
                 <element signature="e#465#474#0" expanded="true" />
                 <element signature="e#3867#3877#0" expanded="true" />
@@ -84,6 +52,15 @@
                 <element signature="e#9903#9911#0" expanded="true" />
                 <element signature="e#12042#12056#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buildTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/single/buildTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -211,16 +188,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537702524950</updated>
-      <workItem from="1537703256889" duration="2943000" />
+      <workItem from="1537703256889" duration="4858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2943000" />
+    <option name="totallyTimeSpent" value="4858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="9" />
       <window_info anchor="bottom" id="TODO" order="7" />
@@ -232,9 +208,9 @@
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.27272728" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.92396694" />
       <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20330578" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30413222" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.19894099" />
@@ -316,13 +292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/single/buildTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2478">
-          <caret line="181" column="30" lean-forward="true" selection-start-line="181" selection-start-column="30" selection-end-line="181" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/single/experiment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -334,10 +303,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/buildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/single/search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="424" column="51" lean-forward="true" selection-start-line="424" selection-start-column="51" selection-end-line="424" selection-end-column="51" />
+        <state relative-caret-position="3">
+          <caret line="352" column="35" lean-forward="true" selection-start-line="352" selection-start-column="35" selection-end-line="352" selection-end-column="35" />
           <folding>
             <element signature="e#465#474#0" expanded="true" />
             <element signature="e#3867#3877#0" expanded="true" />
