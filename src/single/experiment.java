@@ -9,10 +9,12 @@ import java.util.concurrent.Callable;
 
 import Jama.Matrix;
 
+
 public class experiment implements Callable<List<Integer>> {
 	public List<String> keyword =new ArrayList<String>();//存放关键字
 	public List<String> file =new ArrayList<String>();//存放关键字对应的文件
 	public List<String> fuzzyQuery =new ArrayList<String>();//存放模糊查询
+
 	public List<Integer> searchResult = new ArrayList<Integer>();
 	public double rightHasSearchTotle;
 	public List<String> getKeyword() {
@@ -33,6 +35,7 @@ public class experiment implements Callable<List<Integer>> {
 	public void setFuzzyQuery(List<String> fuzzyQuery) {
 		this.fuzzyQuery = fuzzyQuery;
 	}
+
 	public List<Integer> getSearchResult() {
 		return searchResult;
 	}
@@ -213,15 +216,15 @@ public class experiment implements Callable<List<Integer>> {
 				 searchResult.add(p.file_id);
 			 }
 
-	         for(int i=0;i<p.val.length;i++)
-	         {
-	            for(int j=0;j<p.val[0].length;j++)
-	            {
-	    	        System.out.print(p.val[i][j]+" "); 
-	            }
-	            System.out.println();
-	         }
-	        System.out.println("-----节点分界线-----------");
+//	         for(int i=0;i<p.val.length;i++)
+//	         {
+//	            for(int j=0;j<p.val[0].length;j++)
+//	            {
+//	    	        System.out.print(p.val[i][j]+" "); 
+//	            }
+//	            System.out.println();
+//	         }
+//	        System.out.println("-----节点分界线-----------");
 	          if (p.right != null && searchStandard(p.right.val,model,accracy)==1) {
 	              p = p.right;
 	          }

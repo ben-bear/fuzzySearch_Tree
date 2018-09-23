@@ -45,19 +45,25 @@ public class buildTree {
 			//将节点数构造为2^n形式
 			//判断节点数是否为2^n
 			//参考：//https://blog.csdn.net/best_fiends_zxh/article/details/53873212
+			int count=0;
 			while(((nodes.size()+exNodes.size()) & ((nodes.size()+exNodes.size()) -1)) != 0)
 			{
+				System.out.println("节点数nodes.size()="+nodes.size()+",exNodes.size()="+exNodes.size());
 				TreeNode node1=iterator.next();
 				iterator.remove();
 				TreeNode node2=iterator.next();								
 				iterator.remove();
 				
-				TreeNode newNode=new TreeNode(conbinePareNode(node1.getVal(),node2.getVal()),node1,node2);	
+				TreeNode newNode=new TreeNode(conbinePareNode(node1.getVal(),node2.getVal(),count),node1,node2);	
+				System.out.println("count="+(++count));
 				exNodes.add(newNode);
 			}
 			nodes.addAll(0,exNodes);
 			exNodes.clear();
 			
+			
+			System.out.println("节点合并完成！");
+			int count2=0;
 			while(nodes.size()!=1){//节点数位1时，构建完成
 				Iterator<TreeNode> ite= nodes.iterator();
 				while(ite.hasNext()){//往上构造一层
@@ -66,16 +72,18 @@ public class buildTree {
 					TreeNode node2=ite.next();								
 					ite.remove();
 					
-					TreeNode newNode=new TreeNode(conbinePareNode(node1.getVal(),node2.getVal()),node1,node2);
+					TreeNode newNode=new TreeNode(conbinePareNode(node1.getVal(),node2.getVal(),count2),node1,node2);
+					System.out.println("count2="+(++count2));
 					exNodes.add(newNode);
 				}
 				nodes.addAll(0,exNodes);
 				exNodes.clear();
 			}		
+			System.out.println("buildTree函数结束！");
 			return nodes.get(0);
 			
 		}
-		public  double[][] conbinePareNode(double[][] node1,double[][] node2)
+		public  double[][] conbinePareNode(double[][] node1,double[][] node2,int count)
 		{
 			//假如node1.length=node2.length,即：文件关键词个数一致
 			if(node1.length==node2.length)
@@ -86,7 +94,17 @@ public class buildTree {
 					for(int j=0;j<node1[i].length;j++)
 					{
 						newNode[i][j]=new buildTree().gongBeiShu(String.valueOf(node1[i][j]),String.valueOf(node2[i][j]));
+
+						if(count==16380)
+						{
+							System.out.println(node1[i][j]);
+							System.out.println(node2[i][j]);
+							System.out.println(newNode[i][j]+" ");
+						}
+						
+
 					}
+		
 				}
 				return newNode;
 				
@@ -97,8 +115,17 @@ public class buildTree {
 				{
 					for(int j=0;j<node2[i].length;j++)
 					{
-						newNode[i][j]=new buildTree().gongBeiShu(String.valueOf(node1[i][j]), String.valueOf(node2[i][j]));
+
+						newNode[i][j]=new buildTree().gongBeiShu(String.valueOf(node1[i][j]),String.valueOf(node2[i][j]));
+						if(count==16380)
+						{
+							System.out.println(node1[i][j]);
+							System.out.println(node2[i][j]);
+							System.out.println(newNode[i][j]+" ");
+						}
+
 					}
+					
 				}
 				//复制
 				for(int i=node2.length;i<node1.length;i++)
@@ -117,6 +144,12 @@ public class buildTree {
 					for(int j=0;j<node1[i].length;j++)
 					{
 						newNode[i][j]=new buildTree().gongBeiShu(String.valueOf(node1[i][j]),String.valueOf(node2[i][j]));
+						if(count==16380)
+						{
+							System.out.println(node1[i][j]);
+							System.out.println(node2[i][j]);
+							System.out.println(newNode[i][j]+" ");
+						}
 					}
 				}
 				//复制
@@ -168,6 +201,7 @@ public class buildTree {
 			}
 		//最小公倍数 bigDecimal
 		public  double gongBeiShu(String  str1, String  str2) {
+			
 			//准备：
 			
 			BigDecimal n=new BigDecimal(String.valueOf(str1));
