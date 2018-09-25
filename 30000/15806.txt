@@ -1,0 +1,1 @@
+gamma daily price position vol sqrt
