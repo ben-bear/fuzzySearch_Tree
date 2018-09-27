@@ -48,14 +48,14 @@ public class buildTree {
 			int count=0;
 			while(((nodes.size()+exNodes.size()) & ((nodes.size()+exNodes.size()) -1)) != 0)
 			{
-				System.out.println("节点数nodes.size()="+nodes.size()+",exNodes.size()="+exNodes.size());
+//				System.out.println("节点数nodes.size()="+nodes.size()+",exNodes.size()="+exNodes.size());
 				TreeNode node1=iterator.next();
 				iterator.remove();
 				TreeNode node2=iterator.next();								
 				iterator.remove();
 				
 				TreeNode newNode=new TreeNode(conbinePareNode(node1.getVal(),node2.getVal(),count),node1,node2);	
-				System.out.println("count="+(++count));
+//				System.out.println("count="+(++count));
 				exNodes.add(newNode);
 			}
 			nodes.addAll(0,exNodes);
@@ -73,7 +73,7 @@ public class buildTree {
 					ite.remove();
 					
 					TreeNode newNode=new TreeNode(conbinePareNode(node1.getVal(),node2.getVal(),count2),node1,node2);
-					System.out.println("count2="+(++count2));
+//					System.out.println("count2="+(++count2));
 					exNodes.add(newNode);
 				}
 				nodes.addAll(0,exNodes);
@@ -288,6 +288,8 @@ public class buildTree {
 			          else p = null;
 			     } while(p != null || !s.empty());
 		 }
+
+
 			public static void main(String[] args) throws IOException 
 			{
 				
@@ -355,12 +357,6 @@ public class buildTree {
 				
 				System.out.println("Tree2遍历算法：");
 				Tree2.inOrder(Tree2);
-			    
-				
-				
-				
-				
-				
 			}
 
 }

@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.Random;
 import java.util.Stack;
 import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.FutureTask;
 
 import Jama.Matrix;
 
@@ -421,13 +424,14 @@ public class experiment implements Callable<List<Integer>> {
 		return Runtime.getRuntime().availableProcessors();
 	}
 
-	public static void main(String[] args) throws IOException
-	{
+	public static void main(String[] args) throws IOException {
+
+
 //		experiment ex = new experiment();
 //		List<String> listD = new ArrayList<String>();
 //		List<String> experimentK = new ArrayList<String>();
 //		List<String> experimentD = new ArrayList<String>();
-//		// 文件夹下所有文件的文件关键字
+//		// 文件夹下所有文件的文件关键字git
 //		List<String> listK = new ArrayList<String>();
 //		fileRead test = new fileRead();
 ////		test.readFileName("F:/infocoms/3keyword");
@@ -461,6 +465,16 @@ public class experiment implements Callable<List<Integer>> {
 //			System.out.print(ex.getFuzzyQuery().get(i)+" ");
 //		}
 	}
+
+//    public List<Integer> searchStandardParallel (TreeNode node, String mode, double accary, int coreNum) {
+//        List<Integer> result = new ArrayList<>();
+//        ExecutorService executor = Executors.newFixedThreadPool(coreNum);
+//        if (coreNum < 4) {
+//
+//            FutureTask<Integer> futureTask =
+//        }
+//        return result;
+//    }
 
 	@Override
 	public List<Integer> call() throws Exception {

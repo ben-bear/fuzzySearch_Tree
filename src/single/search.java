@@ -264,12 +264,14 @@ public class search {
 //			    test.readFileName("D:\\博士学习\\实验数据集+开源代码\\fuzzySearch\\1keyword");
 
 //				test.readFileName("F:\\硕士\\G盘\\10000");
-				test.readFileName("C:\\Users\\muyunhao\\Desktop\\All_keyword");
+				String workingDir = System.getProperty("user.dir");
+//				test.readFileName(workingDir + "\\30000");
+				test.readFileName(workingDir + "\\5000");
 
 				listD=test.getListDocument();
 				listK=test.getListKeyword();
 				//2、将关键字变成索引
-				String[] randLetter={"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
+				String[] randLetter={"A","B","C","D","E","F","G","H","I",	"J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
 				double[] prime ={2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97};
 				inTx.setRandLetter(randLetter);
 				inTx.setPrime(prime);
@@ -352,13 +354,13 @@ public class search {
 				List<double[][]> vector= new ArrayList<double[][]>();
 				queryText qt=new queryText();
 				//人为添加的测试情况
-		//		query.add("*ware");
-        query.add("*iscuss");
-        query.add("*ent");
-        query.add("*remier");
+//				query.add("*ware");
+//        		query.add("*iscuss");
+//        		query.add("*ent");
+//        		query.add("*remier");
 				//自动产生测试样例的情况
-				//ex.exper(listD,listK,2,1,model);
-			//	query=ex.fuzzyQuery;
+				ex.exper(listD,listK,2,1,model);
+				query=ex.fuzzyQuery;
 				qt.setPrime(prime);
 				qt.setQuery(query);
 				qt.setRandLetter(randLetter);
@@ -405,12 +407,17 @@ public class search {
 						      query_en.Enc_query2.get(0));
                
                 double accracy=0.001;
+                int coreNum = getCoreNumber();
+
                 System.out.println("--执行searchStandard（）----");
 
 
                 Long time = System.currentTimeMillis();
-//                ex.searchStandard(node1, model, accracy);
-                List<Integer> result = ex.searchStandardRecursively(node1, "and", accracy);
+                ex.searchStandard(node1, model, accracy);
+
+//                List<Integer> result = ex.searchStandardRecursively(node1, "and", accracy);
+//				List<Integer> result = ex.searchStandardParallel(node1, "and", accracy, coreNum);
+				List<Integer> result = new Parallel().searchTree(node1, "and", accracy, coreNum);
                 Long endTime = System.currentTimeMillis();
                 System.out.print((endTime - time) / 1f + "ms");
 
@@ -436,10 +443,9 @@ public class search {
                
                ex.searchPrecision(targetKList, query,model);
                ex.searchRecall(listK, query,model);
-               
-               
-               
-		 
 	}
 
+	private static int getCoreNumber() {
+		return Runtime.getRuntime().availableProcessors();
+	}
 }

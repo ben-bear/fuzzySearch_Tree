@@ -1,44 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="084e5656-1719-4a5a-8148-e9b499431826" name="Default Changelist" comment="">
-<<<<<<< HEAD
+    <list default="true" id="9317c092-5d68-48d1-8765-f696b29234f2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/single/Parallel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/single/buildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/buildTree.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/buildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/buildTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/experiment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/experiment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/fileRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/fileRead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/genKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/genKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/indexEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/indexEnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/indexText.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/indexText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/queryEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/queryEnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/queryText.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/queryText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/search.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/security/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/security/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/TreeNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/single/buildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/buildTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/single/experiment.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/experiment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/fileRead.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/fileRead.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/genKey.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/genKey.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/indexEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/indexEnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/indexText.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/indexText.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/queryEnc.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/queryEnc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/queryText.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/queryText.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/single/search.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/single/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/single/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tool/bigDecimalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tool/bigDecimalTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tool/gongBeiShu.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tool/gongBeiShu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/tool/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/tool/test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/BuildTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/treeBug/BuildTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/treeBug/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/conTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/treeBug/conTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/treeBug/test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/treeBug/test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/single/buildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/buildTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/single/experiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/experiment.java" afterDir="false" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
       <change beforePath="$PROJECT_DIR$/src/single/search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/single/search.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -49,75 +19,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1130217380">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="49" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="49" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< HEAD
-      <file leaf-file-name="search.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="search.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/single/search.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="352" column="35" lean-forward="true" selection-start-line="352" selection-start-column="35" selection-end-line="352" selection-end-column="35" />
+            <state relative-caret-position="119">
+              <caret line="413" lean-forward="true" selection-start-line="413" selection-end-line="413" />
               <folding>
-                <element signature="e#465#474#0" expanded="true" />
-                <element signature="e#3867#3877#0" expanded="true" />
-                <element signature="e#3919#3929#0" expanded="true" />
-                <element signature="e#5360#5370#0" expanded="true" />
-                <element signature="e#6227#6237#0" expanded="true" />
-                <element signature="e#7008#7016#0" expanded="true" />
-                <element signature="e#7084#7098#0" expanded="true" />
-                <element signature="e#9903#9911#0" expanded="true" />
-                <element signature="e#12042#12056#0" expanded="true" />
+                <element signature="e#13304#13305#0" expanded="true" />
+                <element signature="e#13360#13361#0" expanded="true" />
               </folding>
-=======
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/single/search.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="398" column="63" lean-forward="true" selection-start-line="398" selection-start-column="63" selection-end-line="398" selection-end-column="63" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="buildTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/single/buildTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -125,24 +37,44 @@
       <file leaf-file-name="experiment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/single/experiment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
+            <state relative-caret-position="-7443">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
               <folding>
-                <element signature="e#926#927#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#8840#8841#0" expanded="true" />
+                <element signature="e#8896#8897#0" expanded="true" />
               </folding>
-=======
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/single/experiment.java">
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Parallel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/single/Parallel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
+            <state relative-caret-position="246">
+              <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>加密结束</find>
+      <find>count2</find>
+      <find>future</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,10 +82,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/single/experiment.java" />
         <option value="$PROJECT_DIR$/src/single/buildTree.java" />
+        <option value="$PROJECT_DIR$/src/single/experiment.java" />
+        <option value="$PROJECT_DIR$/src/single/parallel.java" />
         <option value="$PROJECT_DIR$/src/single/search.java" />
+        <option value="$PROJECT_DIR$/src/single/Parallel.java" />
       </list>
     </option>
   </component>
@@ -163,6 +96,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
@@ -171,31 +110,12 @@
     <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
-=======
-        <option value="$PROJECT_DIR$/src/single/search.java" />
-        <option value="$PROJECT_DIR$/src/single/experiment.java" />
-      </list>
-    </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1385" />
-    <option name="height" value="745" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-=======
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,26 +138,14 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537702810851" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-=======
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537704164940" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -251,10 +159,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="single.search" />
+  <component name="RunManager" selected="Application.search">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="experiment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="single.experiment" />
       <module name="fuzzySearch_Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="single.*" />
@@ -262,9 +174,63 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="single.search" />
+      <module name="fuzzySearch_Tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="single.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.search" />
+      <item itemvalue="Application.experiment" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.search" />
+        <item itemvalue="Application.experiment" />
       </list>
     </recent_temporary>
   </component>
@@ -273,114 +239,53 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="084e5656-1719-4a5a-8148-e9b499431826" name="Default Changelist" comment="" />
-      <created>1537702524950</created>
+      <changelist id="9317c092-5d68-48d1-8765-f696b29234f2" name="Default" comment="" />
+      <created>1537708895371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1537702524950</updated>
-      <workItem from="1537703256889" duration="4858000" />
+      <updated>1537708895371</updated>
+      <workItem from="1537708903618" duration="2260000" />
+      <workItem from="1538028468130" duration="5265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4858000" />
+    <option name="totallyTimeSpent" value="7525000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Palette" order="9" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.23140496" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.92396694" />
-      <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30413222" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19894099" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
-=======
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18096514" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24929178" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32956153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" id="Palette" order="9" />
-      <window_info id="Designer" order="3" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.23966943" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19894099" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289256" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.23140496" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Mongo Explorer" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20330578" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-    </layout-to-restore>
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27272728" />
+      <window_info anchor="right" id="Mongo Explorer" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30578512" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -391,161 +296,87 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/single/search.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="198">
-          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        <state relative-caret-position="6948">
+          <caret line="415" selection-start-line="415" selection-end-line="415" />
           <folding>
-            <element signature="e#465#474#0" expanded="true" />
-            <element signature="e#3867#3877#0" expanded="true" />
-            <element signature="e#3919#3929#0" expanded="true" />
-            <element signature="e#5360#5370#0" expanded="true" />
-            <element signature="e#6227#6237#0" expanded="true" />
-            <element signature="e#7008#7016#0" expanded="true" />
-            <element signature="e#7084#7098#0" expanded="true" />
-            <element signature="e#9903#9911#0" expanded="true" />
-            <element signature="e#12042#12056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/single/fileRead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-=======
-        <state relative-caret-position="1089">
-          <caret line="398" column="63" lean-forward="true" selection-start-line="398" selection-start-column="63" selection-end-line="398" selection-end-column="63" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/single/experiment.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="285">
-          <caret line="181" column="5" lean-forward="true" selection-start-line="181" selection-start-column="5" selection-end-line="181" selection-end-column="5" />
-          <folding>
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#13304#13305#0" expanded="true" />
+            <element signature="e#13360#13361#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/single/buildTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="139" column="25" lean-forward="true" selection-start-line="139" selection-start-column="25" selection-end-line="139" selection-end-column="25" />
+        <state relative-caret-position="2250">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7560">
+          <caret line="420" column="55" selection-start-line="420" selection-start-column="36" selection-end-line="420" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8840#8841#0" expanded="true" />
+            <element signature="e#8896#8897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="550" column="10" lean-forward="true" selection-start-line="550" selection-start-column="10" selection-end-line="550" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/buildTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="291" column="8" selection-start-line="291" selection-start-column="8" selection-end-line="291" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/fileRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/single/experiment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7443">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#8840#8841#0" expanded="true" />
+            <element signature="e#8896#8897#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/single/search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="352" column="35" lean-forward="true" selection-start-line="352" selection-start-column="35" selection-end-line="352" selection-end-column="35" />
+        <state relative-caret-position="119">
+          <caret line="413" lean-forward="true" selection-start-line="413" selection-end-line="413" />
           <folding>
-            <element signature="e#465#474#0" expanded="true" />
-            <element signature="e#3867#3877#0" expanded="true" />
-            <element signature="e#3919#3929#0" expanded="true" />
-            <element signature="e#5360#5370#0" expanded="true" />
-            <element signature="e#6227#6237#0" expanded="true" />
-            <element signature="e#7008#7016#0" expanded="true" />
-            <element signature="e#7084#7098#0" expanded="true" />
-            <element signature="e#9903#9911#0" expanded="true" />
-            <element signature="e#12042#12056#0" expanded="true" />
+            <element signature="e#13304#13305#0" expanded="true" />
+            <element signature="e#13360#13361#0" expanded="true" />
           </folding>
-=======
-        <state relative-caret-position="57">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
->>>>>>> f93465a409110281421affa9faca81bc57a3e376
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>fuzzySearch_Tree</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>10</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/src/single/Parallel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
